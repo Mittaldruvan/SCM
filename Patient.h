@@ -35,7 +35,6 @@ public:
 };
 void readP()
 {
-    // char Name, Id, PhoneNo;
     patient p1;
     ifstream fin("Patient.dat", ios::binary);
     cout << left << setw(20) << "Name" << setw(20) << "Id" << setw(20) << "PhoneNo" << "\n";
@@ -330,25 +329,21 @@ void getPatientMenu()
             l = updateP(k);
             break;
         case 8:
-            // int n;
             cout << "Enter id of the patient:";
             cin >> n;
             x = searchandinsertP(n);
             break;
         case 9:
-            // int n;
             cout << "Enter the id detail u want to delete:";
             cin >> n;
             x = searchdeleteP(n);
             break;
         case 10:
-            // int n;
             cout << "Enter the id detail u want to update:";
             cin >> n;
             x = searchupdateP(n);
             break;
         case 11:
-            // int n;
             cout << "Enter the id detail u want to show:";
             cin >> n;
             patient p1 = searchshowP(n);
