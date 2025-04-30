@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
-#include "Patient.h"
-#include "Doctor.h"
+#include "Appointment.h"
 using namespace std;
 main()
 {
