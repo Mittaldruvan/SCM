@@ -23,6 +23,9 @@ main()
         case 2:
             getDoctorMenu();
             break;
+        case 3:
+            getAppointmentmenu();
+            break;
         }
         cout << "\n"
              << "If u want to call a menu againn(y/n):";
