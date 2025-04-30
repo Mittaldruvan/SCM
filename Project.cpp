@@ -12,6 +12,7 @@ main()
     {
         cout << "Press 1 for Calling Patient menu." << "\n";
         cout << "Press 2 for Calling Doctor menu." << "\n";
+        cout << "Press 3 for Calling Appointment menu." << "\n";
         cout << "Enter number for calling a menu:";
         cin >> i;
         switch (i)
