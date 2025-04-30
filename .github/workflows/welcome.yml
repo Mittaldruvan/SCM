@@ -14,7 +14,4 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Compile C++ code
-      run: g++ -o hospital_management hospital_management.cpp
-
-    - name: Run program (optional)
-      run: ./hospital_management
+      run: g++ -std=c++17 -o hospital_management hospital_management.cpp
